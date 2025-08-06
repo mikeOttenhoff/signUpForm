@@ -1,0 +1,99 @@
+:root {
+  --logo-width: 7rem;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.imgElement {
+  background-image: url(../img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .imgContainer {
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    margin-top: 10rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: var(--logo-width);
+    }
+    p {
+      color: #fff;
+      font-family: norse, sans-serif;
+      font-size: var(--logo-width);
+    }
+  }
+  p {
+    margin-top: auto;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.form_container {
+  background-color: #f9fafb;
+  .titleContainer,
+  form {
+    margin: 2rem auto;
+    padding: 3rem;
+  }
+  .titleContainer {
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      margin: 2rem auto;
+      font-size: 1.5rem;
+    }
+  }
+  form {
+    background-color: #fff;
+    box-shadow: 0.1rem 0.1rem 1rem rgba($color: #000000, $alpha: 0.3);
+  }
+  .formContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    h3 {
+      grid-column: 1 / -1;
+    }
+  }
+  .account {
+    padding: 0 3rem;
+    &_create {
+      background-color: #596d48;
+      color: #fff;
+      margin-bottom: 2rem;
+      padding: 1rem 3rem;
+      border-radius: 1rem;
+    }
+  }
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  &:invalid {
+    border: none;
+    outline: 2px solid red;
+  }
+}

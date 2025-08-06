@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="imgElement">
+      <div class="imgContainer">
+        <img src="./img/odin-lined.png" alt="The Odin project logo" class="odinLogo">
+        <p class="odinText">Odin</p>
+      </div>
+
+      <p class="imgSrc">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
+    </section>
+    <article class="form_container">
+      <div class="titleContainer">
+        <h2 class="title">This is not a real online service! You know you need something like this in your life to help
+          you realize your deepest dreams. Sign up <i>now</i> to get started</h2>
+        <h3 class="title">You <i>know</i> you want to.</h3>
+      </div>
+
+      <form action="#">
+        <div class="formContent">
+          <h3>Let's do this!</h3>
+          <label for="firstName">First name <input type="text" name="firstName" placeholder="Thor" id="firstName">
+          </label>
+          <label for="lastName">Last name <input type="text" name="lastName" placeholder="Odinson"
+              id="lastName"></label>
+          <label>Email <input type="email" name="email" placeholder="thorOdinson@mail.com"></label>
+          <label>phone number <input type="text" name="phoneNumber" placeholder="012-3456789"></label>
+          <label>Password <input type="password" name="password" required></label>
+          <label>Confirm password<input type="password" name="passwordConformation" required></label>
+        </div>
+      </form>
+
+      <div class="account">
+        <button class="account_create">Create account</button>
+        <p class="account_already">Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </article>
+  </div>
+</body>
+
+</html>
