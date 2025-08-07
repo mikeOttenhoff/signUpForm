@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 @font-face {
   font-family: Norse;
-  src: url(../img/_fonts/Norse-Bold.otf) format("OpenType");
+  src: local(Norse-Bold), local(Norse),
+    url(../img/_fonts/Norse-Bold.otf) format("OpenType");
   font-weight: 700;
 }
 
