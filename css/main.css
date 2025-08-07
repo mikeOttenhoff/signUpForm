@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap");
 @font-face {
   font-family: Norse;
-  src: local(Norse-Bold), local(Norse), url(./../img/_fonts/Norse-Bold.otf) format("opentype");
+  src: local(Norse-Bold), local(Norse), url(../img/_fonts/Norse-Bold.otf) format("opentype");
   font-weight: 700;
 }
 * {
